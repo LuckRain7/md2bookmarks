@@ -1,6 +1,6 @@
 {
-  "name": "node-de2html",
-  "version": "1.0.0",
+  "name": "md2bookmarks",
+  "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
