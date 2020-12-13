@@ -1,0 +1,17 @@
+{
+  "name": "node-de2html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "koa": "^2.13.0",
+    "koa-static": "^5.0.0"
+  }
+}
