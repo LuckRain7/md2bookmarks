@@ -8,6 +8,6 @@
   "events": {
     "restart": "echo '[nodemon] restarting'"
   },
-  "watch": ["docs"],
+  "watch": ["docs", "md-to-html-plugin"],
   "ext": "js,json,md,ejs"
 }
