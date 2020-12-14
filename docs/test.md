@@ -150,15 +150,15 @@ sidebar: auto
 
 [基于 IPFS 的电子书搜索引擎](https://i-book.in/)
 
-[Awesome Open Source 开源项目查询 ](https://awesomeopensource.com/)
+[Awesome Open Source - 开源项目查询 ](https://awesomeopensource.com/)
 
 [互联网上的免费书籍 - 阮一峰整理](https://github.com/ruanyf/free-books)
 
-[免费的计算机编程类中文书籍 - justjavac 整理](https://github.com/justjavac/free-programming-books-zh_CN)
+[免费的计算机编程书 - justjavac 整理](https://github.com/justjavac/free-programming-books-zh_CN)
 
 [USTC-Course - 中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
 
-[Springer 机器学习图书免费下载](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+[Springer 机器学习书](https://link.springer.com/book/10.1007/978-0-387-84858-7)
 
 ## 工具
 
@@ -218,7 +218,7 @@ sidebar: auto
 
 [大圣盘](https://www.dashengpan.com/)
 
-[svg-to-png - 图片转换 svg 转 png](https://cloudconvert.com/svg-to-png)
+[svg to png - 图片转换 svg 转 png](https://cloudconvert.com/svg-to-png)
 
 [3D Book Image CSS Generator - 在线工具，让一张平面图片变成 3D 书籍封面。](https://3d-book-css.netlify.app/)
 
@@ -272,7 +272,7 @@ sidebar: auto
 
 [Color Picker — A handy design tool from Color Supply（色彩搭配）](https://colorsupplyyy.com/app)
 
-[艺术字体在线生成器 艺术字转换器 字体转换器](https://www.qt86.com/)
+[艺术字体生成器 - 艺术字转换器 字体转换器](https://www.qt86.com/)
 
 [📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍](https://emojipedia.org/)
 
@@ -293,12 +293,6 @@ sidebar: auto
 [Coolors - The super fast color schemes generator! - 创建完美的调色板或得到灵感来自成千上万的漂亮的配色方案](https://coolors.co/)
 
 [登录页设计 - 登录页的各种页面设计，可以免费下载模板](https://cruip.com/)
-
-[CSS 渐变魔法 - 该网站收集各种 CSS 渐变图像，可以复制到自己的项目](https://www.gradientmagic.com/)
-
-[CSSfx - 该网站收集各种 CSS 特效，可以复制粘贴到自己的项目](https://cssfx.dev/)
-
-[CSS 3D - 该网页收集一些常用 CSS 3D 示例](https://polypane.app/css-3d-transform-examples/)
 
 ## 图片
 
@@ -340,11 +334,11 @@ sidebar: auto
 
 ## JavaScript
 
-[Front-end Web Development, Chewed Up ← Alligator.io （快速理解那些看似困难的前端代码片段 全英文）](https://alligator.io/)
+[Alligator.io - 快速理解那些看似困难的前端代码片段 全英文](https://alligator.io/)
 
-[kangax （检查 JavaScript 版本）](https://kangax.github.io/compat-table/es6/)
+[ES6 compatibility - 检查 JavaScript 版本](https://kangax.github.io/compat-table/es6/)
 
-[127 个有帮助的代码判断（需稳定的网络环境）](https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-6-of-6-862a6403d334)
+[JavaScript Snippets - 127 个有帮助的 JavaScript 代码片段](https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-6-of-6-862a6403d334)
 
 [JS Tips - JS 技巧](https://www.jstips.co/)
 
@@ -358,21 +352,27 @@ sidebar: auto
 
 [JS Bin - 轻量级在线编辑器网站](https://jsbin.com/)
 
-[《Node.js 技术栈》，旨在为大家提供一个较详细的学习教程，侧重点更倾向于 Node.js 服务端所涉及的技术栈](https://www.nodejs.red/#/)
+[《Node.js 技术栈》 - 旨在为大家提供一个较详细的学习教程，侧重点更倾向于 Node.js 服务端所涉及的技术栈](https://www.nodejs.red/#/)
 
 ## CSS
 
-[CSS Reference - A free visual guide to CSS （CSS 学习指南 全英文）](https://cssreference.io/)
+[CSS Reference - A free visual guide to CSS | CSS 学习指南 全英文](https://cssreference.io/)
 
-[30-seconds/30-seconds-of-css: Short CSS code snippets for all your development needs](https://github.com/30-seconds/30-seconds-of-css)
+[30-seconds-of-css - Short CSS code snippets for all your development needs](https://github.com/30-seconds/30-seconds-of-css)
 
-[CSS Grid Generator | LayoutIt! - 可视化布局 ](https://grid.layoutit.com/)
+[CSS Grid Generator - LayoutIt! | 可视化布局 ](https://grid.layoutit.com/)
 
 [Scotch.io - A Visual Guide to CSS3 Flexbox Properties 可视化布局](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 
-[css-protips - CSS 专业技巧](https://github.com/AllThingsSmitty/css-protips/tree/master/translations/zh-CN)
+[CSS 技巧收藏集 - AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips/tree/master/translations/zh-CN)
 
 [CSS-Tricks - 学习 CSS）](https://css-tricks.com/)
+
+[CSS 渐变魔法 - 该网站收集各种 CSS 渐变图像，可以复制到自己的项目](https://www.gradientmagic.com/)
+
+[CSSfx 特效示例 - 该网站收集各种 CSS 特效，可以复制粘贴到自己的项目](https://cssfx.dev/)
+
+[CSS 3D 示例 - 该网页收集一些常用 CSS 3D 示例](https://polypane.app/css-3d-transform-examples/)
 
 ## 有趣的网站
 
@@ -382,15 +382,15 @@ sidebar: auto
 
 [timelineofearth - 网页展示地球演化的 46 亿年](http://timelineofearth.com/)
 
-[The Wick Editor（纯英文）](https://www.wickeditor.com/#/)
+[The Wick Editor - 纯英文](https://www.wickeditor.com/#/)
 
 [毒鸡汤 - 壮士可要来一碗！](http://www.nows.fun/)
 
 [一个有点沙雕的网站](http://wb.newbfun.com/)
 
-[表情包在线制作模板大全 - 斗图表情包在线制作](https://www.52doutu.cn/)
+[表情包在线制作模板 - 斗图表情包在线制作](https://www.52doutu.cn/)
 
-[抽象话生成器 网页版](https://cxh.papapoi.com/?from=groupmessage)
+[抽象话生成器](https://cxh.papapoi.com/?from=groupmessage)
 
 [Lutheran Insulter](http://ergofabulous.org/luther/?)
 
@@ -424,7 +424,7 @@ sidebar: auto
 
 [CNode - Node.js 专业中文社区](https://cnodejs.org/)
 
-[iSlide- 让 PPT 设计简单起来~ | 中文官网](https://www.islide.cc/)
+[iSlide - 让 PPT 设计简单起来~ | 中文官网](https://www.islide.cc/)
 
 [声享 - 在线制作 PPT，让分享更有价值](https://ppt.baomitu.com/)
 
@@ -484,9 +484,9 @@ sidebar: auto
 
 [优启通官网,u 盘启动盘制作工具](http://www.uqitong.top/)
 
-[Java 知识分享网-免费 Java 资源下载](http://www.java1234.com/)
+[Java 知识分享网 - 免费 Java 资源下载](http://www.java1234.com/)
 
-[coderplanets- 页面还好](https://coderplanets.com/home/posts)
+[coderplanets - 页面还好](https://coderplanets.com/home/posts)
 
 [Feeds Pub - RSS 阅读器](https://feeds.pub/)
 
@@ -498,7 +498,7 @@ sidebar: auto
 
 [Science Fiction Interfaces - 该网站收集科幻影视作品里面出现的计算机界面设计。](http://sciencefictioninterfaces.tumblr.com/)
 
-[计算机科学家 Tim Bray 的博客](https://www.tbray.org/ongoing/)
+[Tim Bray blog - 计算机科学家 ](https://www.tbray.org/ongoing/)
 
 [漫威 API - 漫威公司将自己的漫画资源做成 API 开放。](https://developer.marvel.com/)
 
@@ -510,7 +510,7 @@ sidebar: auto
 
 [Hashnode - Welcome to your developer community](https://hashnode.com/)
 
-[DEV Community 👩‍💻👨‍💻 （分享社区） ](https://dev.to/)
+[DEV Community -分享社区](https://dev.to/)
 
 [stackshare.io - 收集各大网站使用的技术栈](https://stackshare.io/stacks)
 
@@ -560,7 +560,7 @@ sidebar: auto
 
 [COVID-19 舆论新闻可视化 - 山东大学 VisLab 的一个可视化项目，分析疫情对舆论和新闻的影响。](https://pearmini.gitee.io/ncovis-2020/#/)
 
-[斑码：一款强大、现代的可视化编辑器。](https://zebrastudio.tech/)
+[斑码编辑器 - 一款强大、现代的可视化编辑器。](https://zebrastudio.tech/)
 
 [Story Creator - 一个在线的视频编辑器，可以用来在浏览器里面编辑一些简单视频。](https://storycreatorapp.com/)
 
