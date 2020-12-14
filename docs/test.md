@@ -66,7 +66,7 @@ sidebar: auto
 | [神三元的博客](http://47.98.159.95/my_blog/)
 | [冴羽博客](https://github.com/mqyqingfeng/Blog)
 
-[awesome-coding-js 用 JavaScript 实现的算法和数据结构](http://www.conardli.top/docs/)
+[awesome-coding-js - 用 JavaScript 实现的算法和数据结构](http://www.conardli.top/docs/)
 
 [前端面试与进阶指南](https://www.cxymsg.com/)
 
@@ -82,7 +82,7 @@ sidebar: auto
 
 [商业分析 BA 周刊](https://www.yuque.com/baclub/weekly)
 
-[唐霜的博客\_编程的时候我叫“否子戈”！](https://www.tangshuang.net/)
+[唐霜的博客 - 编程的时候我叫“否子戈”！](https://www.tangshuang.net/)
 
 [中国第五届 CSS 开发者大会](https://css.w3ctech.com/)
 
@@ -114,11 +114,11 @@ sidebar: auto
 
 [2ality – JavaScript and more](https://2ality.com/)
 
-[DZone: Programming & DevOps news, tutorials & tools](https://dzone.com/)
+[DZone - Programming & DevOps news, tutorials & tools](https://dzone.com/)
 
 [CKEditor Ecosystem Blog](https://ckeditor.com/blog/)
 
-[All posts | Roberto Vitillo's Blog](https://robertovitillo.com/)
+[Roberto Vitillo's Blog](https://robertovitillo.com/)
 
 [Turn Websites into structured data /Dataflow kit](https://dataflowkit.com/)
 
@@ -128,9 +128,9 @@ sidebar: auto
 
 [OpenAI](https://openai.com/)
 
-[DEV Community 👩‍💻👨‍💻](https://dev.to/)
+[DEV Community](https://dev.to/)
 
-[Posts :: kitsonkelly.com — A recovering 7ft tall cactus](https://kitsonkelly.com/posts)
+[kitsonkelly — A recovering 7ft tall cactus](https://kitsonkelly.com/posts)
 
 [Freshman — Articles and tutorials on Software development](https://freshman.tech/)
 
@@ -414,7 +414,7 @@ sidebar: auto
 
 [成都 Web 开发者大会](https://web-conf.dev/#2020/)
 
-[History of Programming Languages（编程语言历史大会）](https://hopl4.sigplan.org/)
+[History of Programming Languages- 编程语言历史大会](https://hopl4.sigplan.org/)
 
 [Web 全栈大会](https://leinue.github.io/webfullstack-2019/index.html)
 
@@ -422,7 +422,7 @@ sidebar: auto
 
 [黑客派 - 为未来而构建的开发者社区，找到你所需的技术解决方案、记录和分享我们的程序人生](https://hacpai.com/)
 
-[CNode：Node.js 专业中文社区](https://cnodejs.org/)
+[CNode - Node.js 专业中文社区](https://cnodejs.org/)
 
 [iSlide- 让 PPT 设计简单起来~ | 中文官网](https://www.islide.cc/)
 
@@ -430,13 +430,11 @@ sidebar: auto
 
 [gossip - 一个高效创建和演示炫酷幻灯片的用户界面！](https://github.com/pearmini/gossip)
 
-[24k 导航\_简单事,高效做！！！](https://www.24kdh.com/)
+[24k 导航 - 简单事,高效做！！！](https://www.24kdh.com/)
 
 [小呆导航](https://webjike.com/)
 
-[致美化 - 最专业的桌面美化交流平台 - 漫锋网](https://zhutix.com/)
-
-[鼠标指针 - 光标 - 电脑鼠标指针下载 - 致美化 - 漫锋网](https://zhutix.com/tag/cursors/)
+[致美化 - 最专业的桌面美化交流平台](https://zhutix.com/)
 
 [Wallpaper Abyss - HD Wallpapers, Background Images](https://wall.alphacoders.com/)
 

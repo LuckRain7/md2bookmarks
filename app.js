@@ -1,6 +1,5 @@
 const { resolve } = require("path");
 const Koa = require("koa");
-
 const MdToHtmlPlugin = require("./md-to-html-plugin/index.js");
 
 const app = new Koa();
@@ -10,7 +9,6 @@ MdToHtmlPlugin({
   template: resolve(__dirname, "docs/test.md"),
   filename: "index.html",
 });
-
 
 // 监听端口
 app.listen(3000, function () {
