@@ -4,34 +4,37 @@ const { compilerHTML, compilerArr } = require("./compiler.js");
 const ejs = require("ejs");
 const INNER_MARK = "<!-- inner -->";
 
-function MdToHtmlPlugin({ template, filename }) {
-  if (!template) {
-    throw new Error('The config for "template" must be configured');
-  }
+function MdToHtmlPlugin(_arr) {
+  _arr.forEach(({ entryFilename, template, outFilename }) => {
+    if (!template) {
+      throw new Error('The config for "template" must be configured');
+    }
 
-  this.template = template;
-  this.filename = filename ? filename : ".md.html";
+    let templatePath = resolve(__dirname, "./template/" + template + ".ejs");
+    let entryFilenamePath = resolve(__dirname, "../docs/" + entryFilename);
+    let outFilenamePath = resolve(__dirname, "../dist/" + outFilename)
 
-  // 拿到对应md文档内容 还有html模板
-  const _mdContent = readFileSync(this.template, "utf-8");
+    // md文档内容
+    const _mdContent = readFileSync(entryFilenamePath, "utf-8");
 
-  // prettier-ignore
-  const _templateHTML = readFileSync(resolve(__dirname, "template.ejs"), "utf-8");
+    // html模板
+    const _templateHTML = readFileSync(templatePath, "utf-8");
 
-  const _mdContentArr = _mdContent.split("\n"); // 将md转换成arr
+    // 将md转换成arr
+    const _mdContentArr = _mdContent.split("\n"); 
 
-  const renderData = compilerArr(_mdContentArr);
+    // 进行编译
+    const renderData = compilerArr(_mdContentArr);
 
-  // console.log(" --- compilerArr --- ", JSON.stringify(renderData, null, "\t"));
+    // 进行 模板字符串 替换
+    const _renderHTML = ejs.render(_templateHTML, {render: renderData});
 
-  // prettier-ignore
-  // 进行 模板字符串 替换
-  const _renderHTML = ejs.render(_templateHTML, {render: renderData});
+    // 判断文件夹是否存在
+    existsSync(resolve(__dirname, "../dist")) || mkdirSync(resolve(__dirname, "../dist"));
 
-  // prettier-ignore
-  existsSync(resolve(__dirname, "../dist")) || mkdirSync(resolve(__dirname, "../dist"));
-
-  writeFileSync(resolve(__dirname, "../dist/index.html"), _renderHTML, "utf-8");
+    // 写入文件
+    writeFileSync( outFilenamePath, _renderHTML, "utf-8" );
+  });
 }
 
 module.exports = MdToHtmlPlugin;

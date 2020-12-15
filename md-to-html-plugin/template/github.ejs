@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="LuckRain7的书签网站 各种网站导航链接">
+  <title>LuckRain7 bookmarks</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+
+  <meta name="theme-color" content="#563d7c">
+
+
+  <style>
+    body {
+      font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
+      font-size: 14px;
+      background: #f9f9f9;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+    <style lang="css">
+      .recommond {
+        width: 100%;
+        /* padding: 10px 10px 0; */
+        /* box-sizing: border-box; */
+        /* background: #fff; */
+        /* box-shadow: 0 0 20px hsla(0, 0%, 40%, .1); */
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .list-ul {
+        flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+      }
+
+      .list-li {
+        width: 690px;
+        height: 40px;
+        box-shadow: 0 0 10px hsla(0, 0%, 40%, .2);
+        border-radius: 6px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: list-item;
+        text-align: -webkit-match-parent;
+        overflow: hidden;
+
+        transition: all .3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+      }
+
+      
+
+      .list-li a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #a3a3a3;
+      }
+
+      .span-img {
+        width: 19px;
+        height: 19px;
+        color:  #007bff;
+      }
+
+      .span-img img {
+        display: block;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 100%;
+      }
+
+      .span-content {
+        /* max-width: 129px; */
+        margin-left: 10px;
+        /* word-break: break-all; */
+        white-space:nowrap !important;
+      }
+      .span-content.title{
+        color:#007bff;
+      }
+
+
+      .list-li:hover{
+        background-color: #007bff;
+      }
+      .list-li:hover .span-img {
+        color:  white !important;
+      }
+      .list-li:hover a{ 
+        color: white !important;
+      }
+      .list-li:hover .span-content{
+        color: white !important;
+      }
+    </style>
+
+
+</head>
+
+<body class="bg-light">
+
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>LuckRain7's website</h2>
+    </div>
+
+    <div class="row">
+      <!-- 右侧导航 -->
+      <div class="col-md-4 order-md-2 mb-4">
+        <div style="position:fixed" class="menu-fixed">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">目录</span>
+            <span class="badge badge-secondary badge-pill"><%=render.length %></span>
+          </h4>
+          <div class="list-group mb-2">
+            <% render.forEach(function(item,index){ %>
+              <a href="#<%=item.title %>" class="list-group-item list-group-item-action"><%=index+1 %>、<%=item.title %></a>
+            <% }); %>
+          </div>
+          <!-- 搜索 -->
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Hello World">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Hello</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- 
+        左侧内容
+        -->
+      <div class="col-md-8 order-md-1">
+
+        <!-- prettier-ignore -->
+        <% render.forEach(function(item){ %>
+          <!-- 标题部分 <h4> 资源 </h4> -->
+          <<%=item.tag %> id="<%=item.title %>" > <%=item.title %> </<%=item.tag %>>
+          <!-- 内容部分 -->  
+            <div class="recommond">
+              <ul class="list-ul">
+                <!-- list-li -->
+                <% item.children.forEach(function(link){ %>
+                <li class="list-li" data-toggle="tooltip" data-placement="top" title="<%=link.intro %>" >
+                  <a href="<%=link.url %>" target="_blank">
+                    <span class="span-img">
+                      <!-- <img src="/bookmark-check.svg" alt="">  -->
+                      <!-- svg 书签图标 -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </span>
+                    <span class="span-content span-content-active title" ><%=link.title %> </span>
+                    <span class="span-content span-content-active"> | <%=link.intro %></span>
+                  </a>
+                </li>
+                <% }); %>
+              </ul>
+            </div>
+            <hr class="mb-4">
+        <% }); %>
+        <hr class="mb-4">
+      </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2020 LuckRain7</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });
+  </script>
+</body>
+
+</html>
