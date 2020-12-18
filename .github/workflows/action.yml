@@ -30,4 +30,7 @@ jobs:
           git config --global user.name LuckRain7
           git add -A
           git commit -m "bot deploy"
-          git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/md2bookmarks.git master:page
+
+      - name: push
+        run: |
+          git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git master:page
