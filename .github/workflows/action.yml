@@ -23,8 +23,6 @@ jobs:
           npm run build
 
       - name: commit
-        env:
-          GITHUB_REPO: LuckRain7/md2bookmarks
         run: |
           cd  dist
           git init
@@ -32,7 +30,4 @@ jobs:
           git config --global user.name LuckRain7
           git add -A
           git commit -m "bot deploy"
-          git push --force "https://${{ secrets.GITHUBTOKEN }}"@github.com/$GITHUB_REPO" master:page
-
-
-# https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git
+          git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/md2bookmarks.git master:page
