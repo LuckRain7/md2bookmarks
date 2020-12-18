@@ -10,7 +10,7 @@
   - md-to-html-plugin # 主编译插件
 ```
 
-## 热更新
+## 开发 - 热更新
 
 > 配置 nodemon.json ,使用的 nodemon 进行监听。
 
