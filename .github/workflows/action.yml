@@ -33,7 +33,7 @@ jobs:
 
       - name: push github
         run: |
-          git push --force --quiet https://LuckRain7:${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git master:page
+          git push --force --quiet https://LuckRain7:${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git master
 
       - name: push gitee
         run: |
