@@ -37,4 +37,4 @@ jobs:
 
       - name: push gitee
         run: |
-          git push --force https://${{ secrets.GITEETOKEN }}@gitee.com/LuckRain/bookmarks.git master:page
+          git push --force https://${{ secrets.GITEETOKEN }}@gitee.com/LuckRain/bookmarks.git page
