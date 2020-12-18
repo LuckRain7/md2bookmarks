@@ -29,6 +29,7 @@ sidebar: auto
 [Pose Animator - 一个浏览器 js 库，通过摄像头，实时捕捉用户的动作，生成 2d 动画。](https://github.com/yemount/pose-animator)
 [JS Cloudimage 360 View - 一个可以 360 度旋转观看图片的 JS 库，用于在网页上展示商品。](https://github.com/scaleflex/js-cloudimage-360-view)
 [markdown-it - markdown-it 算是最好用的 markdown parse 之一了。markdown 解析看起来简单，其实细节挺多。比如代码需要高亮，链接需要识别。markdown-it 的插件可以搞定这些。](https://github.com/markdown-it/markdown-it)
+[faker.js - 根据你的需要，在 Node.js 和浏览器中生成大量逼真的假数据](https://github.com/Marak/faker.js)
 
 ## TypeScript
 
@@ -47,6 +48,10 @@ sidebar: auto
 [instagram.css - 一个 css 开源库，提供纯 css 的 instagram 滤镜实现](https://github.com/picturepan2/instagram.css)
 [pattern.css - 一个纯 css 库，提供各种形状的背景图案](https://github.com/bansal-io/pattern.css)
 [CSS Animation 101 - 开源电子书《CSS Animation 101》，从零开始介绍 CSS 动画](https://github.com/cssanimation/css-animation-101)
+
+## AI
+
+[beurtschipper/Depix - 这个工具可以将打马赛克的文字还原](https://github.com/beurtschipper/Depix)
 
 ## 算法 & 数据结构
 
@@ -84,3 +89,12 @@ sidebar: auto
 [Dork-Admin - 盘点世界上比较重大的数据泄漏事件](https://github.com/No-Github/Dork-Admin)
 [chinese-programmer-wrong-pronunciation - 中国程序员容易发音错误的单词](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 [ChineseBQB - 开源表情包搜索工具](https://www.v2fy.com/asset/0i/ChineseBQB/)
+
+## PostgreSQL
+
+[tomcam/postgres - psql 教程备忘录 ,psgl 是官网命令函该工具](https://github.com/tomcam/postgres)
+[postgresql.conf 详解 - PostgreSQL 数据库的配置文件 postgresql.conf 有 270 个参数，很难搞清楚该怎么设置。这个网站提供所有参数的详细解释。](https://postgresqlco.nf/en/doc/param/)
+
+## GO
+
+[kkdai/youtube - Youtube 视频下载工具，youtube-dl 的替代品。](https://github.com/kkdai/youtube)

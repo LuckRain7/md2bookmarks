@@ -374,7 +374,15 @@ sidebar: auto
 
 [CSS 3D 示例 - 该网页收集一些常用 CSS 3D 示例](https://polypane.app/css-3d-transform-examples/)
 
+## Reg 正则
+
+[RegExLib - 该网站收集各种常用的正则表达式](https://regexlib.com/)
+
+[RegExper - 该网站可以将正则表达式转成解释图片](https://regexper.com/)
+
 ## 有趣的网站
+
+[Antipodes Map - 这个地图工具可以显示任意地点在地球另一边的对应地点，比如在上海打一个洞穿越地心，就会来到阿根廷的恩特雷里奥斯省](https://www.antipodesmap.com/)
 
 [宇宙模型 - 一个浏览器的 3D 显示实验项目，在网页上展示 10 万颗恒星，讲解宇宙知识。](http://stars.chromeexperiments.com/)
 
@@ -401,6 +409,10 @@ sidebar: auto
 [土味情话](https://github.com/zerosoul/honeyed-words-generator)
 
 [Sharkle - 随机打开一个有趣的网站](https://sharkle.com/)
+
+[Your First GitHub Commit - 这个网站可以找出你的第一个 GitHub 提交](https://www.amitmerchant.com/your-first-commit-ever/)
+
+
 
 ## 其他
 
@@ -441,6 +453,8 @@ sidebar: auto
 [Simple Desktops](http://simpledesktops.com/)
 
 ## 数据库
+
+[AI 事故数据库](https://incidentdatabase.ai/summaries/incidents)
 
 [自来水水质数据库](https://www.iswatersafetodrink.in/China)
 
