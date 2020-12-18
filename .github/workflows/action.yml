@@ -31,6 +31,10 @@ jobs:
           git add -A
           git commit -m "bot deploy"
 
-      - name: push
+      - name: push github 
         run: |
           git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git main:page
+
+      - name: push gitee
+        run: |
+          git push --force https://${{ secrets.GITEETOKEN }}@gitee.com/LuckRain/bookmarks.git master:page
