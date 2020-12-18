@@ -33,4 +33,4 @@ jobs:
 
       - name: push
         run: |
-          git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git master:page
+          git push --force https://${{ secrets.GITHUBTOKEN }}@github.com/LuckRain7/bookmarks.git main:page
