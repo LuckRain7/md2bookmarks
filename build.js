@@ -12,3 +12,4 @@ MdToHtmlPlugin([
     outFilename: "github.html",
   },
 ]);
+console.log('[info] build....');
