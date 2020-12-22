@@ -13,6 +13,7 @@ sidebar: auto
 [front-end-awesome - 字体资源](https://github.com/iq9891/awesome-frontend)
 [fangzesheng/free-api - 收集免费的接口服务, 做一个 api 的搬运工](https://github.com/fangzesheng/free-api)
 [zhaoolee/ChromeAppHeroes - 谷粒-Chrome 插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)
+[Pwdb-Public 是一个从互联网上泄露的 10 亿个证书中提取的所有数据的集合，新一代密码批量分析工具。](https://github.com/FlameOfIgnis/Pwdb-Public)
 
 ## JavaScript
 
@@ -30,17 +31,20 @@ sidebar: auto
 [JS Cloudimage 360 View - 一个可以 360 度旋转观看图片的 JS 库，用于在网页上展示商品。](https://github.com/scaleflex/js-cloudimage-360-view)
 [markdown-it - markdown-it 算是最好用的 markdown parse 之一了。markdown 解析看起来简单，其实细节挺多。比如代码需要高亮，链接需要识别。markdown-it 的插件可以搞定这些。](https://github.com/markdown-it/markdown-it)
 [faker.js - 根据你的需要，在 Node.js 和浏览器中生成大量逼真的假数据](https://github.com/Marak/faker.js)
+[Mapbox GL JS - 帮助开发者快速构建可交互、可定义的矢量地图](https://github.com/mapbox/mapbox-gl-js)
 
 ## TypeScript
 
 [prime - typescript 写的内容管理系统，最大特点是使用 graphql api](https://github.com/birkir/prime)
 [ts-migrate - airbnb 公司新的开源项目，可以将 javascript 代码转成 typescript 代码。](https://github.com/airbnb/ts-migrate)
+[meli - 开源的静态网站部署工具，支持在主域名下部署无数个静态站点，API 配置灵活](https://github.com/getmeli/meli)
 
 ## Node & Deno
 
 [node best practices - 一个收集 node 最佳实践的仓库。](https://github.com/i0natan/nodebestpractices)
 [node.js best practices - node.js 最佳实践](https://github.com/goldbergyoni/nodebestpractices)
 [deno 官方仓库](https://github.com/denoland/deno)
+[Node-Casbin - Node.js 语言打造的轻量级开源访问控制框架](https://github.com/casbin/node-casbin)
 
 ## CSS
 
@@ -48,10 +52,13 @@ sidebar: auto
 [instagram.css - 一个 css 开源库，提供纯 css 的 instagram 滤镜实现](https://github.com/picturepan2/instagram.css)
 [pattern.css - 一个纯 css 库，提供各种形状的背景图案](https://github.com/bansal-io/pattern.css)
 [CSS Animation 101 - 开源电子书《CSS Animation 101》，从零开始介绍 CSS 动画](https://github.com/cssanimation/css-animation-101)
+[Devices.css - 现代物品的 css 实现](https://github.com/picturepan2/devices.css)
 
 ## AI
 
 [beurtschipper/Depix - 这个工具可以将打马赛克的文字还原](https://github.com/beurtschipper/Depix)
+[faceai - 一款入门级的人脸、视频、文字检测以及识别的项目。](https://github.com/vipstone/faceai)
+[Depix - 可通过算法，快速移除文字截图上的马赛克，让其原始文本得以重新呈现](https://github.com/beurtschipper/Depix)
 
 ## 算法 & 数据结构
 
@@ -76,6 +83,11 @@ sidebar: auto
 
 [TNFE-Weekly - 每周为你提供高质量的关于小程序、h5 等前端领域的文章和项目](https://github.com/Tnfe/TNFE-Weekly)
 [CS Notes - 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++](https://github.com/CyC2018/CS-Notes)
+[ml-in-cosmology - 宇宙学机器学习应用大列表](https://github.com/georgestein/ml-in-cosmology)
+
+## 可视化
+
+[iDataV - 大屏数据可视化,收集了各个大厂，各种类型的大屏数据可视化案例。](https://github.com/yyhsong/iDataV)
 
 ## UI 类
 

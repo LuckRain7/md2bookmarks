@@ -26,6 +26,7 @@ sidebar: auto
 | [HelloGitHub 分享](https://hellogithub.com/)
 | [i Hate Regex](https://ihateregex.io/)
 | [MarkDown 排版](https://mdnice.com/)
+[www.wordandphrase - 英文写作神器](https://www.wordandphrase.info/)
 
 ## 查询
 
@@ -145,6 +146,8 @@ sidebar: auto
 [Forbes - 英文新闻网站](https://www.forbes.com/#4f7e23622254)
 
 [Flavio Copes](https://flaviocopes.com/)
+
+[马毅教授首页](http://people.eecs.berkeley.edu/~yima/)
 
 ## 资源
 
@@ -411,8 +414,6 @@ sidebar: auto
 [Sharkle - 随机打开一个有趣的网站](https://sharkle.com/)
 
 [Your First GitHub Commit - 这个网站可以找出你的第一个 GitHub 提交](https://www.amitmerchant.com/your-first-commit-ever/)
-
-
 
 ## 其他
 

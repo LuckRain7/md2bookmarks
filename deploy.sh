@@ -15,7 +15,7 @@ git commit -m "bot deploy"
 
 git push --force git@github.com:LuckRain7/bookmarks.git master
 
-git push --force git@gitee.com:LuckRain/bookmarks.git master:page
+git push --force git@gitee.com:LuckRain7/bookmarks.git master:page
 
 cd ..
 

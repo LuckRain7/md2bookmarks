@@ -4,7 +4,7 @@
 
 [ArchiveBox - The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...](https://github.com/pirate/ArchiveBox)
 
-[[ CSS ] Devices.css - Modern devices in pure CSS (包含 iphone css 实现)](https://github.com/picturepan2/devices.css)
+
 
 [MJML: the only framework that makes responsive-email easy ](https://github.com/mjmlio/mjml)
 
@@ -14,11 +14,11 @@
 
 [架构师技术图谱](https://github.com/toutiaoio/awesome-architecture#%E5%89%8D%E7%AB%AF)
 
-[Pwdb-Public 是一个从互联网上泄露的 10 亿个证书中提取的所有数据的集合，新一代密码批量分析工具。](https://github.com/FlameOfIgnis/Pwdb-Public)
+
 
 [Stencila - Stencila 是一套开源的办公套件，只包含文字处理器和电子表格。](http://stenci.la/)
 
-[faceai - 一款入门级的人脸、视频、文字检测以及识别的项目。](https://github.com/vipstone/faceai)
+
 
 [Gitea - 类似于 GitHub 和 GitLab 的开源项目，用于个人架设 Git 代码托管服务，使用 Go 语言实现。](https://gitea.io/en-us/)
 
