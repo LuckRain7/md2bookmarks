@@ -46,6 +46,10 @@ sidebar: auto
 [deno 官方仓库](https://github.com/denoland/deno)
 [Node-Casbin - Node.js 语言打造的轻量级开源访问控制框架](https://github.com/casbin/node-casbin)
 
+## Electron
+
+[electron-playground - 一个 Electron 的学习工具，内置了各种可演示的示例，并且提供了演练场，几乎所有的代码都可以即时运行查看效果](https://github.com/tal-tech/electron-playground)
+
 ## CSS
 
 [mvp.css - 一个最简化的 css 库，不提供任何自定义的类，只给出最基本的 html 元素的样式，适合在它的基础上添加自定义的样式](https://andybrewer.github.io/mvp/)
@@ -53,6 +57,11 @@ sidebar: auto
 [pattern.css - 一个纯 css 库，提供各种形状的背景图案](https://github.com/bansal-io/pattern.css)
 [CSS Animation 101 - 开源电子书《CSS Animation 101》，从零开始介绍 CSS 动画](https://github.com/cssanimation/css-animation-101)
 [Devices.css - 现代物品的 css 实现](https://github.com/picturepan2/devices.css)
+
+## NPM
+
+[NPM UNPKG - 可以查看 JS 软件包里面包含哪些文件，每个文件的源码](https://github.com/uiwjs/npm-unpkg)
+[bundlephobia - 分析 npm 软件包的体积和加载性能，找出在项目中添加新的前端依赖项的成本](https://github.com/pastelsky/bundlephobia)
 
 ## AI
 

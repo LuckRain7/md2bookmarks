@@ -149,7 +149,7 @@ sidebar: auto
 
 [马毅教授首页](http://people.eecs.berkeley.edu/~yima/)
 
-## 资源
+## 资源 & 教程
 
 [基于 IPFS 的电子书搜索引擎](https://i-book.in/)
 
@@ -162,6 +162,26 @@ sidebar: auto
 [USTC-Course - 中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
 
 [Springer 机器学习书](https://link.springer.com/book/10.1007/978-0-387-84858-7)
+
+[interviewcake - 数据结构教程，图文并茂，简明扼要，列出每种结构的定义和优缺点](https://www.interviewcake.com/data-structures-reference)
+
+[SQL Teaching - 一个针对初学者的 SQL 简单教程，通过在网页上运行示例来学习 SQL。](https://www.sqlteaching.com/)
+
+[深度学习 - fast.ai 免费的深度学习课程。](https://www.kdnuggets.com/2018/07/fast-ai-deep-learning-part-1-notes.html)
+
+[计算机系统导论：以汇编语言与 Linux 系统为例](http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html)
+
+[线性代数入门 - 本教程帮助初学者掌握，深度学习所需要的线性代数知识，每一部分都包含代码、示例和图表。](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-Introduction/)
+
+[NLP 学习资源 - 初学者学习自然语言处理（NLP）时，比较有用的一些资源](https://monkeylearn.com/blog/getting-started-in-natural-language-processing-nlp/)
+
+[搜集各种分布式系统的资料库](https://github.com/asatarin/testing-distributed-systems)
+
+[机器学习书籍清单 - 这份书目的特别之处在于，它是一份树状的互动图表](https://anvaka.github.io/greview/hands-on-ml/1/)
+
+[程序员的实用密码学 - 密码学开源教材，全面介绍的密钥相关的各种基本知识](https://cryptobook.nakov.com/)
+
+[免费的 Python 英文书籍 - 一张免费书籍清单，都是网上合法的 Python 学习资源，书目相当多](https://www.pythonkitchen.com/legally-free-python-books-list/)
 
 ## 工具
 
@@ -239,6 +259,8 @@ sidebar: auto
 
 [Wireflow - 一个开源的在线工具，用来画流程图和线框图](https://wireflow.co/)
 
+[SQL 格式化 - SQL 语句格式化的在线工具](https://sqlfum.pt/)
+
 ## 设计
 
 [uiGradients - Beautiful colored gradients 一个收集渐变色样式的网站](https://uigradients.com/)
@@ -297,6 +319,10 @@ sidebar: auto
 
 [登录页设计 - 登录页的各种页面设计，可以免费下载模板](https://cruip.com/)
 
+[Symmetry Groups - 一个生成对称图形的网站，可以用来生成墙纸](http://www.coloring-book.co/wallpaper)
+
+[remove.bg - 去除照片背景的在线工具](https://www.remove.bg/)
+
 ## 图片
 
 [Carbon（代码图片生成）](https://carbon.now.sh/)
@@ -330,6 +356,10 @@ sidebar: auto
 [Wewatermark - 一个在线工具，可以为图片加上各种各样的水印。](https://wewatermark.com/)
 
 [Calligrapher.ai - 一个在线工具，可以将英文输入变成手写体，并具有动画效果，提供 SVG 格式下载](https://www.calligrapher.ai/)
+
+[艺术品图像 - 芝加哥艺术学院的网站提供 5 万多张艺术品图片，全部都是高分辨率，而且可以免费使用](https://www.artic.edu/collection?is_public_domain=1)
+
+[实用排版指南 - 介绍网页排版的知识。](https://practicaltypography.com/)
 
 ## HTML
 
@@ -415,6 +445,8 @@ sidebar: auto
 
 [Your First GitHub Commit - 这个网站可以找出你的第一个 GitHub 提交](https://www.amitmerchant.com/your-first-commit-ever/)
 
+[Aminated Knots - 收集各种绳子打结的方法，并且有动画教学](https://www.animatedknots.com/complete-knot-list)
+
 ## 其他
 
 [Shakespearean Insulter](http://www.pangloss.com/seidel/Shaker/index.html?)
@@ -479,13 +511,21 @@ sidebar: auto
 
 [A List of Post-mortems - 收集各大互联网公司网络事故的事后分析报告](https://github.com/danluu/post-mortems)
 
-## 学习
+[机器学习 50 个最佳免费数据集](https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/)
 
-[SQL Teaching - 一个针对初学者的 SQL 简单教程，通过在网页上运行示例来学习 SQL。](https://www.sqlteaching.com/)
-
-[深度学习 - fast.ai 免费的深度学习课程。](https://www.kdnuggets.com/2018/07/fast-ai-deep-learning-part-1-notes.html)
+[Mixnode - Mixnode 是一个收集了全世界网页的数据库，允许使用类似 SQL 的语法查询网页](https://www.mixnode.com/blog/posts/turn-the-web-into-a-database-an-alternative-to-web-crawling-scraping)
 
 ## 待整理
+
+[CSS 的竖行横书组合 - CSS 可以做到中文竖排，并且内部数字是横排的效果](http://www.deathghost.cn/article/css/86)
+
+[计算机如何识别图像？ - 本文较通俗地介绍了神经网络的历史发展和计算原理](https://arstechnica.com/science/2018/12/how-computers-got-shockingly-good-at-recognizing-images/)
+
+[IPFS 文件系统的简单解释 - 通俗易懂的方式解释 IPFS 这个基于 IP 协议的文件系统的原理](https://achainofblocks.com/2018/10/05/ipfs-interplanetary-file-system-simply-explained/)
+
+[图解 DNS over HTTPS](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/)
+
+[UDP 协议到底可不可靠？ - UDP 协议不如 TCP 协议可靠，这是大家都知道，但是这个协议到底丢包率有多高？有人做了测试，结果发现丢包率并不高，主要的问题是数据包的顺序。](https://www.openmymind.net/How-Unreliable-Is-UDP/)
 
 [大涛子客栈](https://www.yangtao.site/vuepress/)
 
@@ -616,3 +656,9 @@ sidebar: auto
 [XD 中文网](https://xd.94xy.com/)
 
 [XD 资源网 - 提供 AdobeXD 最新软件,素材模板下载,教程视频,工具插件](https://www.xdccpro.com/)
+
+[ActivityPub 协议介绍 - ActivePub 是一种分布式的通信协议](https://jeremydormitzer.com/blog/what-is-activitypub-and-how-will-it-change-the-internet/)
+
+[IPFS 介绍 - IPFS 是一个具有 web 接口的分布式数据库，一旦写入，你的内容就将永远存在，且无法修改。本文是一篇很不错的介绍文章， Cloudflare 在文中宣布开通 IPFS 网关服务。如果你有自己的 IPFS 节点，就可以让 Cloudflare 的 CDN 网络分发你的内容。](https://blog.cloudflare.com/distributed-web-gateway/)
+
+[MIT 许可证逐句解释 - 英文](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html)
