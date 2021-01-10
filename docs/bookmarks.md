@@ -365,6 +365,18 @@ sidebar: auto
 
 [实用排版指南 - 介绍网页排版的知识。](https://practicaltypography.com/)
 
+[Flat Surface Shader - 剃刀式平面背景制作](http://matthew.wagerfield.com/flat-surface-shader/)
+
+[Stars Emmision - 溅射图制作](https://wangyasai.github.io/Stars-Emmision/)
+
+[Logo-ShapeFactory - 酷 logo 制作 | 只支持英文 | 收费](https://logo.shapefactory.co/)
+
+[Duotone by ShapeFactory - 双色炫图制作，适用于 ppt](https://duotone.shapefactory.co/)
+
+[Gradient by ShapeFactory - 渐变色图制作，适用于 ppt、海报背景](https://gradient.shapefactory.co/)
+
+[AutoDraw - 在线简易画制作 | 谷歌 plaything](https://www.autodraw.com/)
+
 ## HTML
 
 [HTML5UP + CSS 3 免费模版](https://html5up.net/)
@@ -417,7 +429,7 @@ sidebar: auto
 
 [RegExper - 该网站可以将正则表达式转成解释图片](https://regexper.com/)
 
-## 有趣的网站
+## 有趣
 
 [Antipodes Map - 这个地图工具可以显示任意地点在地球另一边的对应地点，比如在上海打一个洞穿越地心，就会来到阿根廷的恩特雷里奥斯省](https://www.antipodesmap.com/)
 
@@ -521,7 +533,7 @@ sidebar: auto
 
 [游戏 UI 数据库 - 收集各种游戏的 UI 设计，提供多种分类](https://www.gameuidatabase.com/)
 
-## 待整理
+## TODO
 
 [CSS 的竖行横书组合 - CSS 可以做到中文竖排，并且内部数字是横排的效果](http://www.deathghost.cn/article/css/86)
 

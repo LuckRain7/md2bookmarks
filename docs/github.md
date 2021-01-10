@@ -76,7 +76,7 @@ sidebar: auto
 [javascript-algorithms - JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms)
 [wangzheng0822/algo - 数据结构和算法必知必会的 50 个代码实现](https://github.com/wangzheng0822/algo)
 
-## 软件工具类
+## 工具
 
 [Molunerfinn/PicGo - PicGo 是一个不错的图床工具](https://github.com/Molunerfinn/PicGo)
 [GoogleChromeLabs/squoosh - 谷歌开源图像压缩](https://github.com/GoogleChromeLabs/squoosh)
@@ -119,6 +119,6 @@ sidebar: auto
 [tomcam/postgres - psql 教程备忘录 ,psgl 是官网命令函该工具](https://github.com/tomcam/postgres)
 [postgresql.conf 详解 - PostgreSQL 数据库的配置文件 postgresql.conf 有 270 个参数，很难搞清楚该怎么设置。这个网站提供所有参数的详细解释。](https://postgresqlco.nf/en/doc/param/)
 
-## GO
+## Go
 
 [kkdai/youtube - Youtube 视频下载工具，youtube-dl 的替代品。](https://github.com/kkdai/youtube)
