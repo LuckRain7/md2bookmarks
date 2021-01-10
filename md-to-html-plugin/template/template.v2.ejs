@@ -7,12 +7,8 @@
     <meta name="description" content="书签网站" />
     <meta name="author" content="LuckRain7" />
     <title>LuckRain7's Bookmarks</title>
-
     <!-- Bootstrap CDN -->
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
-
-
-
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -28,10 +24,11 @@
                 font-size: 3.5rem;
             }
         }
+        .link-jump{
+            float: left; cursor: pointer; color: #6c757d;
+        }
     </style>
-
     <!-- Custom styles for this template -->
-
     <style lang="css">
         html,
         body {
@@ -154,23 +151,18 @@
     <!-- 下面导航栏 -->
     <div style="position: fixed;width: 100%;height: auto;">
         <div class="nav-scroller bg-white shadow-sm" style="width: 100%;height: auto !important;">
-            <!-- <nav class="nav nav-underline"> -->
              <div style="float: left;" >
                 <% render.forEach(function(item,index){ %>
-                    <a class="nav-link"  style="float: left; cursor: pointer;" onClick="jump('<%=item.title %>')"><%=item.title %></a>
+                    <a class="nav-link link-jump"   onClick="jump('<%=item.title %>')"><%=item.title %></a>
                 <% }); %>
-                <!-- <a class="nav-link active" href="#">Dashboard</a> -->
             </div>
         </div>
     </div>
 
     <!-- 主部分 -->
     <main role="main" class="container">
-
         <div style="height: 25px;"></div>
-
         <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
-
             <div class="lh-100">
                 <h6 class="mb-0 text-white lh-100">LuckRain7</h6>
                 <small>Since 2020</small>
@@ -182,16 +174,10 @@
                 <h6 class="border-bottom border-gray pb-2 mb-0" id="<%=item.title %>"><%=item.title %></h6>
                 <% item.children.forEach(function(link){ %>
                     <div class="media text-muted pt-3">
-
                         <!-- 进行 svg 图标控制 -->
-                        <% if (icon[item.title]) { %>
-                            <%- icon[item.title] %>
-                        <% } else { %>
-                            <%- icon['default'] %>
-                        <% } %>
+                        <% if (icon[item.title]) { %> <%- icon[item.title] %> <% } else { %> <%- icon['default'] %>  <% } %>
 
-                        <!-- 主内容实现 -->
-                        <% if (link.intro.length > 0) { %>
+                        <% if (link.intro.length > 0) { %> <!-- 主内容实现 -->
                             <div class="media-body pb-2 mb-0 small lh-125 border-bottom border-gray">
                                 <div class="d-flex justify-content-between align-items-center w-100">
                                     <strong class="text-gray-dark"><%=link.title %></strong>
@@ -207,13 +193,8 @@
                                 </div>
                             </div>
                         <% } %>
-
-
                     </div>
                 <% }); %>
-                <!-- <small class="d-block text-right mt-3">
-                    <a href="#">All suggestions</a>
-                </small> -->
             </div>
         <% }); %>
     </main>
