@@ -157,16 +157,17 @@
             <!-- <nav class="nav nav-underline"> -->
              <div style="float: left;" >
                 <% render.forEach(function(item,index){ %>
-                    <a class="nav-link" href="#<%=item.title %>" style="float: left;"><%=item.title %></a>
+                    <a class="nav-link"  style="float: left; cursor: pointer;" onClick="jump('<%=item.title %>')"><%=item.title %></a>
                 <% }); %>
                 <!-- <a class="nav-link active" href="#">Dashboard</a> -->
             </div>
         </div>
     </div>
 
-
     <!-- 主部分 -->
     <main role="main" class="container">
+
+        <div style="height: 25px;"></div>
 
         <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
 
@@ -216,6 +217,15 @@
             </div>
         <% }); %>
     </main>
+    <script>
+        var jump = function (_id){
+            const el = document.querySelector(`#${_id}`)
+            window.scrollTo({ 
+               top: el.offsetTop - 120, 
+               behavior: "smooth" 
+            });
+        }
+    </script>
 </body>
 
 </html>
