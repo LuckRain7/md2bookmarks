@@ -183,6 +183,8 @@ sidebar: auto
 
 [免费的 Python 英文书籍 - 一张免费书籍清单，都是网上合法的 Python 学习资源，书目相当多](https://www.pythonkitchen.com/legally-free-python-books-list/)
 
+[麻省理工学院计算机课程的中文版](https://missing-semester-cn.github.io/)
+
 ## 工具
 
 [Squoosh - 谷歌在线图片压缩](https://squoosh.app/)
@@ -322,6 +324,8 @@ sidebar: auto
 [Symmetry Groups - 一个生成对称图形的网站，可以用来生成墙纸](http://www.coloring-book.co/wallpaper)
 
 [remove.bg - 去除照片背景的在线工具](https://www.remove.bg/)
+
+[PhotoMosh - 故障效果生成](https://photomosh.com/)
 
 ## 图片
 
@@ -514,6 +518,8 @@ sidebar: auto
 [机器学习 50 个最佳免费数据集](https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/)
 
 [Mixnode - Mixnode 是一个收集了全世界网页的数据库，允许使用类似 SQL 的语法查询网页](https://www.mixnode.com/blog/posts/turn-the-web-into-a-database-an-alternative-to-web-crawling-scraping)
+
+[游戏 UI 数据库 - 收集各种游戏的 UI 设计，提供多种分类](https://www.gameuidatabase.com/)
 
 ## 待整理
 

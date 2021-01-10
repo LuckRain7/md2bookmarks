@@ -32,6 +32,8 @@ sidebar: auto
 [markdown-it - markdown-it 算是最好用的 markdown parse 之一了。markdown 解析看起来简单，其实细节挺多。比如代码需要高亮，链接需要识别。markdown-it 的插件可以搞定这些。](https://github.com/markdown-it/markdown-it)
 [faker.js - 根据你的需要，在 Node.js 和浏览器中生成大量逼真的假数据](https://github.com/Marak/faker.js)
 [Mapbox GL JS - 帮助开发者快速构建可交互、可定义的矢量地图](https://github.com/mapbox/mapbox-gl-js)
+[Mdpdf - 将 Markdown 转为 PDF 文件的 JS 库，底层是谷歌的无头浏览器 Puppeteer](https://github.com/BlueHatbRit/mdpdf)
+[CodeSwing- VS Code 的一个插件，提供交互式编码环境，可以直接运行 HTML / JavaScript / CSS 代码。](https://github.com/codespaces-contrib/codeswing)
 
 ## TypeScript
 
@@ -87,6 +89,7 @@ sidebar: auto
 [wekan/wekan - 一个开源看板软件，类似 Trello](https://github.com/wekan/wekan)
 [Sweet Home 3D - 一个开源的室内设计 3D 软件](http://www.sweethome3d.com/)
 [Cedreo - 一个 3D 的家居建模渲染软件，还可以生成平面图，免费注册使用](https://cedreo.com/en/)
+[Planner - Linux 平台处理待办事项（Todos）的桌面软件，功能很强。](https://planner-todo.web.app/)
 
 ## 文档类
 
