@@ -1,8 +1,9 @@
 const { readFileSync, writeFileSync, mkdirSync, existsSync } = require("fs");
 const { resolve } = require("path");
 const { compilerHTML, compilerArr } = require("./compiler.js");
+const icon = require("./config.icon.js");
 const ejs = require("ejs");
-const INNER_MARK = "<!-- inner -->";
+// const INNER_MARK = "<!-- inner -->";
 
 function MdToHtmlPlugin(_arr) {
   _arr.forEach(({ entryFilename, template, outFilename }) => {
@@ -27,7 +28,7 @@ function MdToHtmlPlugin(_arr) {
     const renderData = compilerArr(_mdContentArr);
 
     // 进行 模板字符串 替换
-    const _renderHTML = ejs.render(_templateHTML, {render: renderData});
+    const _renderHTML = ejs.render(_templateHTML, {render: renderData,icon: icon});
 
     // 判断文件夹是否存在
     existsSync(resolve(__dirname, "../dist")) || mkdirSync(resolve(__dirname, "../dist"));

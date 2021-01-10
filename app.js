@@ -8,12 +8,12 @@ app.use(require("koa-static")(__dirname + "/dist")); // 静态文件
 MdToHtmlPlugin([
   {
     entryFilename: "bookmarks.md",
-    template: "bookmarks",
+    template: "template.v2",
     outFilename: "index.html",
   },
   {
     entryFilename: "github.md",
-    template: "github",
+    template: "template.v2",
     outFilename: "github.html",
   },
 ]);
