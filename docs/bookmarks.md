@@ -377,6 +377,10 @@ sidebar: auto
 
 [AutoDraw - 在线简易画制作 | 谷歌 plaything](https://www.autodraw.com/)
 
+[Text to ASCII Art Generator - 根据文字生成字符画](http://patorjk.com/software/taag)
+
+[ASCII Generator - 根据文字生成字符画](http://www.network-science.de/ascii/)
+
 ## HTML
 
 [HTML5UP + CSS 3 免费模版](https://html5up.net/)
