@@ -17,6 +17,8 @@ git push --force git@github.com:LuckRain7/bookmarks.git master
 
 git push --force git@gitee.com:LuckRain7/bookmarks.git master:page
 
+open https://gitee.com/LuckRain7/bookmarks/pages
+
 cd ..
 
 rm -rf dist
