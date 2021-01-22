@@ -42,6 +42,8 @@ sidebar: auto
 
 [Tools for FrontEnd developers - 收集前端开发各方面的工具](http://frontendtools.com/)
 
+[最繁忙的航线 - 该网站可以查看世界各地的航线数据，比如本月最繁忙的 10 条国际和地区航线，以及各国国内最繁忙的航线。](https://www.oag.com/busiest-routes-right-now)
+
 ## 网站（博客、学习...）
 
 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
@@ -185,6 +187,8 @@ sidebar: auto
 
 [麻省理工学院计算机课程的中文版](https://missing-semester-cn.github.io/)
 
+[Electronic References - 该网页收集网上免费的计算机科学教科书。](https://csgordon.github.io/books.html)
+
 ## 工具
 
 [Squoosh - 谷歌在线图片压缩](https://squoosh.app/)
@@ -262,6 +266,8 @@ sidebar: auto
 [Wireflow - 一个开源的在线工具，用来画流程图和线框图](https://wireflow.co/)
 
 [SQL 格式化 - SQL 语句格式化的在线工具](https://sqlfum.pt/)
+
+[Transform - 一个在线工具，可以将各种代码互相转换，比如把 HTML 转为 JSX，或者把 JSON 转为 XML。](https://transform.tools/)
 
 ## 设计
 
@@ -380,6 +386,8 @@ sidebar: auto
 [Text to ASCII Art Generator - 根据文字生成字符画](http://patorjk.com/software/taag)
 
 [ASCII Generator - 根据文字生成字符画](http://www.network-science.de/ascii/)
+
+[Multiavatar - 一个在线工具，可以根据输入的文字，生成用户头像图片（ avatar）](https://multiavatar.com/)
 
 ## HTML
 

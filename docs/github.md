@@ -59,6 +59,7 @@ sidebar: auto
 [pattern.css - 一个纯 css 库，提供各种形状的背景图案](https://github.com/bansal-io/pattern.css)
 [CSS Animation 101 - 开源电子书《CSS Animation 101》，从零开始介绍 CSS 动画](https://github.com/cssanimation/css-animation-101)
 [Devices.css - 现代物品的 css 实现](https://github.com/picturepan2/devices.css)
+[Cavepaint CSS - 一个可以在线调节主要参数（CSS 变量）的 CSS 框架](https://cavepaint.github.io/cavepaintcss/)
 
 ## NPM
 
@@ -70,6 +71,11 @@ sidebar: auto
 [beurtschipper/Depix - 这个工具可以将打马赛克的文字还原](https://github.com/beurtschipper/Depix)
 [faceai - 一款入门级的人脸、视频、文字检测以及识别的项目。](https://github.com/vipstone/faceai)
 [Depix - 可通过算法，快速移除文字截图上的马赛克，让其原始文本得以重新呈现](https://github.com/beurtschipper/Depix)
+
+## Python
+
+[ssh-mitm - 一个 SSH 中间人服务器，拦截所有 SSH 操作。攻击者自以为登陆了真实服务器，从而让系统记录下他的操作。](https://github.com/ssh-mitm/ssh-mitm)
+[LibreTranslate - 一个开源的、可以自己架设的机器翻译服务，支持多种语言的互相翻译，包括中文。](https://github.com/uav4geo/LibreTranslate)
 
 ## 算法 & 数据结构
 
