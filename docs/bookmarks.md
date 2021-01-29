@@ -28,6 +28,8 @@ sidebar: auto
 | [MarkDown 排版](https://mdnice.com/)
 [www.wordandphrase - 英文写作神器](https://www.wordandphrase.info/)
 
+[新趣集 - 一起发现有趣的新产品](https://xinquji.com/)
+
 ## 查询
 
 [wiby - 一个极简的搜索引擎，加载速度很快。](https://wiby.org/)

@@ -14,6 +14,7 @@ sidebar: auto
 [fangzesheng/free-api - 收集免费的接口服务, 做一个 api 的搬运工](https://github.com/fangzesheng/free-api)
 [zhaoolee/ChromeAppHeroes - 谷粒-Chrome 插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)
 [Pwdb-Public 是一个从互联网上泄露的 10 亿个证书中提取的所有数据的集合，新一代密码批量分析工具。](https://github.com/FlameOfIgnis/Pwdb-Public)
+[Games on GitHub - 收集 GitHub 上面的各种开源游戏](https://github.com/leereilly/games)
 
 ## JavaScript
 
@@ -71,6 +72,7 @@ sidebar: auto
 [beurtschipper/Depix - 这个工具可以将打马赛克的文字还原](https://github.com/beurtschipper/Depix)
 [faceai - 一款入门级的人脸、视频、文字检测以及识别的项目。](https://github.com/vipstone/faceai)
 [Depix - 可通过算法，快速移除文字截图上的马赛克，让其原始文本得以重新呈现](https://github.com/beurtschipper/Depix)
+[commaai/openpilot - 一个开源的辅助驾驶系统，可以自动车道居中和自适应巡航控制，已经支持85种车型。](https://github.com/commaai/openpilot)
 
 ## Python
 
